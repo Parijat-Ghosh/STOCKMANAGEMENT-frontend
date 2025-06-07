@@ -76,6 +76,7 @@ export default function Login() {
       navigate("/", { state: { toastMessage: "Successfully loggedin" } });
       
     } catch (err) {
+      console.error("Signup error:", err.response?.data || err.message);
       toast.error("Login failed!"); // 🚨 This shows the toast
       setLoading(false);
     }
