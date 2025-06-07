@@ -88,7 +88,7 @@ export default function Navbar() {
             <li className="nav-item">
               <a
                 className="nav-link product active"
-                href="https://stock-dashboard.onrender.com">
+                href="https://stockmanagement-dashboard.vercel.app/">
                 Dashboard
               </a> 
             </li>
