@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-link{
+  margin-left: 1rem !important;
+}
+
+.footer-text {
+  font-size: 0.85rem;
+  color: #6c757d; /* Bootstrap's muted grey */
+  line-height: 1.5;
+}
+.link-style{
+  text-decoration: none !important;
+  margin-top: 0.5rem !important;
+}
+.aboutpage-text {
+  color: #0d0f10c5; /*Bootstrap's muted grey #0d0f10c5 */
+
+}
+
+.teampage-text {
+  color: #090a0ac5; /*Bootstrap's muted grey #0d0f10c5 */
+
+}
