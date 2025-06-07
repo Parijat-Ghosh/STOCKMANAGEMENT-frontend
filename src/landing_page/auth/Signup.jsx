@@ -89,6 +89,7 @@ export default function SignUp() {
         //  console.log(error);
         //  alert("Error signing up. Please try again.");
         //  setLoading(false);
+        console.error("Signup error:", err.response?.data || err.message);
         toast.error("Signup failed!"); // 🚨 This shows the toast
         setLoading(false);
 
