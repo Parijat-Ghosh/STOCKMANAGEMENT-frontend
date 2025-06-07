@@ -61,7 +61,7 @@ export default function Login() {
     event.preventDefault();
     try {
       setLoading(true);
-      const res = await axios.post("${process.env.REACT_APP_API_URL}login", {
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/login`, {
         email: email,
         password: password,
       });
